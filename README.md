@@ -21,11 +21,11 @@ import evaNet from './eco.3/evanet.lib.js';
 
 
 useage examples(more in their respective scripts):
-\neco.num.gaussian(2, 0, 1);
-await eco.db.createRow(["m_bool", "u_id", "a_string"], [true, 10, "sum text"]);
-eco.date.typeOf(1610000000);
-eco.loop.nforever(mainLoop, 300);
-await evaNet.step(marketSliceIndex);
+- eco.num.gaussian(2, 0, 1);
+- await eco.db.createRow(["m_bool", "u_id", "a_string"], [true, 10, "sum text"]);
+- eco.date.typeOf(1610000000);
+- eco.loop.nforever(mainLoop, 300);
+- await evaNet.step(marketSliceIndex);
 
 
 ------------------------------------------------------------------------------
