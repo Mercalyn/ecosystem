@@ -36,14 +36,15 @@ useage examples(more in their respective scripts):
 
 
 html client for the chart js wrapper, put it in head:
-
+```
 <script src="/chartWrap"></script>
-
+```
 if serving client in node, node will need:
-
+```
 app.get('/chartWrap', function(req, res) {
     res.sendFile(path.join(__dirname + '/eco.2/chartjswrapper.js'));
 });
+```
 
 
 ------------------------------------------------------------------------------
